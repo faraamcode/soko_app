@@ -222,3 +222,73 @@ HEADER
     
   }
 }
+
+
+/* 
+=========
+FOOTER
+=========
+ */
+ footer{
+   display: grid;
+   grid-template-rows: 10rem 13rem;
+
+ }
+ .first-section-footer{
+   background: var(--clr-primary-1);
+ }
+ .section-footer-logo{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+ }
+ .footer-icon{
+   color: var(--clr-yellow) !important;
+   font-size: 3rem;
+ }
+ .single-footer-icon{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .single-footer-icon h4{
+   margin-top: 1rem;
+   color: var(--clr-white);
+   text-transform: capitalize;
+   font-weight: 300;
+ }
+ .second-section-footer{
+   /* background:pink; */
+   display: grid;
+   justify-content: center;
+   /* align-items: center; */
+ }
+ .second-section-footer h4{
+   font-weight: 300;
+   margin-top: 1rem;
+   text-align: center;
+  }
+  .second-section-footer h3{
+    text-align: center;
+  }
+  .second-section-footer p{
+   font-weight: 300;
+   color: var(--clr-black);
+   text-align: center;
+ }
+ .footer-btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: var(--clr-green-dark);
+   border :0;
+   width: 9rem;
+   justify-self: center;
+   padding: 1rem;
+   margin-bottom: 1rem;
+ }
+ .whatsapp{
+   margin-right: .5rem;
+ }
