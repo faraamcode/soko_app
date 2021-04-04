@@ -15,7 +15,7 @@ Variables
   --clr-primary-7: hsl(205, 90%, 76%);
   --clr-primary-8: hsl(205, 86%, 81%);
   --clr-primary-9: hsl(205, 90%, 88%);
-  --clr-primary-10: hsl(205, 100%, 96%);
+  --clr-primary-10: #F0F5FC;
   /* darkest grey - used for headings */
   --clr-grey-1: rgb(240,240,240);
 
@@ -64,6 +64,7 @@ ul {
 }
 a {
   text-decoration: none;
+  color: var(--clr-primary-1);
 }
 h1,
 h2,
@@ -292,3 +293,69 @@ FOOTER
  .whatsapp{
    margin-right: .5rem;
  }
+
+ /* 
+ ========
+ HOME
+ ========
+  */
+  .section-main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: calc(100vh - 10rem);
+  }
+  .left-side{
+    border-right: 1px solid var(--clr-grey-1);
+    /* background: red; */
+  }
+  .right-side{
+    /* background: green; */
+  }
+  .middle-side{
+    display: grid;
+    border-right: 1px solid var(--clr-grey-1);
+    /* background: grey; */
+  }
+  .product-lists{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .product-item{
+  }
+  .product-item a{
+    padding: 10px 0;
+    display: inline-block;
+    width: 100% !important;
+    height: 100% !important;
+    color:  var(--clr-grey-2);
+  }
+  .product-item a:hover{
+    color:  var(--clr-primary-1);
+  }
+  .active-item{
+    background:  var(--clr-primary-9);
+    color:  var(--clr-primary-1) !important;
+    /* opacity: 0.2;  */
+    border-right: 9px solid var(--clr-primary-1) ;
+
+  }
+  .view-item{
+    color: var(--clr-primary-1);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-transform: initial;
+
+
+  }
+  .arrow{
+    margin-left: 1rem;
+  }
+
+  .single-product-wrapper{
+    width: 100%;
+    height: 10rem;
+    background: green;
+    border-bottom: 1px solid blue;
+  }
