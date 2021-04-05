@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Footer from './component/Footer.jsx'
-import Home from './component/Home.jsx'
-import Navbar from './component/Navbar.jsx'
+import {Footer,Home ,Navbar, EmptyProduct} from './component/'
 
 function App() {
   return (
     <>
      <Navbar/>
-     <Home/>
+     <EmptyProduct/>
+     {/* <Home/> */}
      <Footer/>
     </>
   );

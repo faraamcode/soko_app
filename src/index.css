@@ -499,3 +499,13 @@ FOOTER
      /* margin: 1rem 2rem; */
      color: var(--clr-black-2);
    }
+.btn-empty{
+  background: var(--clr-yellow);
+  color: var(--clr-primary-1);
+  width: 10rem;
+  padding: 1rem;
+  border: 0;
+  border-radius: var(--radius);
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
