@@ -2,6 +2,7 @@ import {IoIosArrowForward, IoIosAdd} from "react-icons/io"
 import {FiSearch} from "react-icons/fi"
 import {FaRegSmile} from "react-icons/fa"
 import {BiMinus, BiPlus} from "react-icons/bi"
+import {MdKeyboardArrowLeft, MdKeyboardArrowRight} from "react-icons/md"
 function Product() {
     return (
  <main>
@@ -42,7 +43,105 @@ function Product() {
                </div>
            </div>
        </div>
-       <div className="other-related-container"></div>
+       <div className="other-related-container">
+           <div className="product-title-container">
+               <h5>Related Product</h5>
+               <div className="navigation-wrapper">
+                   <button className="navigation-btn">
+                   <MdKeyboardArrowLeft/>                     
+                   </button>
+                   <button className="navigation-btn">
+                  <MdKeyboardArrowRight/>
+                   </button>
+               </div>
+           </div>
+           {/* <div className="general-other-product-wrapper">
+               
+           </div> */}
+           <div className="other-related-products-container">
+             <div className="single-other-product first">
+                 <div className="other-product-img">
+                     <img src="images/watch2.jpg" alt=""/>
+                 </div>
+                 <div className="other-product-details">
+                     <h5>Lorem, ipsum.</h5>
+                     <h5 className ="last-details">Lorem, ipsum....</h5>
+                 </div>
+             </div>
+             <div className="single-other-product first">
+                 <div className="other-product-img">
+                     <img src="images/watch2.jpg" alt=""/>
+                 </div>
+                 <div className="other-product-details">
+                     <h5>Lorem, ipsum.</h5>
+                     <h5 className ="last-details">Lorem, ipsum....</h5>
+                 </div>
+             </div>
+             <div className="single-other-product first">
+                 <div className="other-product-img">
+                     <img src="images/watch2.jpg" alt=""/>
+                 </div>
+                 <div className="other-product-details">
+                     <h5>Lorem, ipsum.</h5>
+                     <h5 className ="last-details">Lorem, ipsum....</h5>
+                 </div>
+             </div>
+             <div className="single-other-product first">
+                 <div className="other-product-img">
+                     <img src="images/watch2.jpg" alt=""/>
+                 </div>
+                 <div className="other-product-details">
+                     <h5>Lorem, ipsum.</h5>
+                     <h5 className ="last-details">Lorem, ipsum....</h5>
+                 </div>
+             </div>
+             <div className="single-other-product first">
+                 <div className="other-product-img">
+                     <img src="images/watch2.jpg" alt=""/>
+                 </div>
+                 <div className="other-product-details">
+                     <h5>Lorem, ipsum.</h5>
+                     <h5 className ="last-details">Lorem, ipsum....</h5>
+                 </div>
+             </div>
+             <div className="single-other-product first">
+                 <div className="other-product-img">
+                     <img src="images/watch2.jpg" alt=""/>
+                 </div>
+                 <div className="other-product-details">
+                     <h5>Lorem, ipsum.</h5>
+                     <h5 className ="last-details">Lorem, ipsum....</h5>
+                 </div>
+             </div>
+             <div className="single-other-product first">
+                 <div className="other-product-img">
+                     <img src="images/watch2.jpg" alt=""/>
+                 </div>
+                 <div className="other-product-details">
+                     <h5>Lorem, ipsum.</h5>
+                     <h5 className ="last-details">Lorem, ipsum....</h5>
+                 </div>
+             </div>
+             <div className="single-other-product first">
+                 <div className="other-product-img">
+                     <img src="images/watch2.jpg" alt=""/>
+                 </div>
+                 <div className="other-product-details">
+                     <h5>Lorem, ipsum.</h5>
+                     <h5 className ="last-details">Lorem, ipsum....</h5>
+                 </div>
+             </div>
+             <div className="single-other-product first">
+                 <div className="other-product-img">
+                     <img src="images/watch2.jpg" alt=""/>
+                 </div>
+                 <div className="other-product-details">
+                     <h5>Lorem, ipsum.</h5>
+                     <h5 className ="last-details">Lorem, ipsum....</h5>
+                 </div>
+             </div>
+           </div>
+       </div>
      </section>
  </main>
     );

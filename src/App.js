@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import {Footer,Home ,Navbar, EmptyProduct, Product} from './component/'
+import {Footer,Home ,Navbar, EmptyProduct, Product, Form} from './component/'
 
 function App() {
   return (
     <>
      <Navbar/>
-     <Product/>
+     {/* <Product/> */}
+     <Form/>
      {/* <EmptyProduct/> */}
      {/* <Home/> */}
      <Footer/>
